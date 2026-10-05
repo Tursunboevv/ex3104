@@ -1,0 +1,20 @@
+caption{
+    background-color: aqua; width: 850px; text-align: center;
+}
+th{
+    background-color: yellow; width: 200px; text-align: center;
+}
+.white{
+    background-color: white; width: 200px; text-align: center;
+}
+.red{
+    background-color: red; width: 200px; text-align: center;
+}
+.green{
+    background-color: green; width: 200px; text-align: center;
+}
+th,td, table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
