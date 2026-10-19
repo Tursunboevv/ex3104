@@ -1,20 +1,40 @@
-caption{
-    background-color: aqua; width: 850px; text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
 }
-th{
-    background-color: yellow; width: 200px; text-align: center;
+.container{
+    max-width: 80%;
+    margin: 0 auto;
 }
-.white{
-    background-color: white; width: 200px; text-align: center;
+header{
+    background-color: #282829;
 }
-.red{
-    background-color: red; width: 200px; text-align: center;
+nav{
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.green{
-    background-color: green; width: 200px; text-align: center;
+ul{
+    display: flex;
+    gap: 30px;
 }
-th,td, table{
-    border: 1px solid black;
-    border-collapse: collapse;
+a{
+    color: white;
 }
-
+.text{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.ttext{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
