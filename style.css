@@ -26,15 +26,31 @@ ul{
 a{
     color: white;
 }
-.text{
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 auto;
 }
-.ttext{
-    display: flex;
-    justify-content: center;
+
+main h1{
+    text-align: center;
     padding-top: 50px;
-    padding-bottom: 50px;
+    font-size: 50px;    
+}
+.image{
+    width: 393px;
+    height: 230px;  
+    border-radius: 20px;    
+}
+.card{
+    width: 30%;
+    text-align: center;
+    padding-top: 114px;
+    justify-content: space-between;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 50px;    
+    padding-bottom: 172px;
 }
